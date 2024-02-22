@@ -1,0 +1,325 @@
+{
+  "albums": [
+  {
+    "id": 666,
+    "name": "Darkthrone - Transilvanian Hunger",
+    "description": "Um dos álbuns mais influentes e emblemáticos do black metal, conhecido por sua atmosfera gélida e crueldade sonora. Lançado em 1994, é um marco no gênero.",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/6e/Darkthrone_-_Transilvanian_Hunger.jpg",
+    "location_name": "Oslo, Noruega",
+    "location_coordinates": [
+      10.75222,
+      59.91667
+    ],
+    "date": "1994-01-24"
+  },
+  {
+    "id": 5678,
+    "name": "Cannibal Corpse - Tomb of the Mutilated",
+    "description": "Um clássico do death metal que estabeleceu novos padrões no extremismo musical e lírico. Lançado em 1992, é reverenciado por sua brutalidade sonora.",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/27/Tombofthemutilated.jpeg",
+    "location_name": "Buffalo, Nova York, Estados Unidos",
+    "location_coordinates": [
+      -78.8790409125109,
+      42.88615049705584
+    ],
+    "date": "1992-07-14"
+  },
+  {
+    "id": 9012,
+    "name": "Sarcofago - INRI",
+    "description": "Considerado um dos álbuns mais importantes do black metal brasileiro, lançado em 1989, este álbum deixou uma marca duradoura na cena extrema",
+    "cover": "https://upload.wikimedia.org/wikipedia/pt/2/26/Sarcofago_INRI.jpg",
+    "location_name": "Belo Horizonte, Brasil",
+    "location_coordinates": [
+      -43.9527415369179,
+      -19.91060761889077
+    ],
+    "date": "1989-12-01"
+  },
+  {
+    "id": 3456,
+    "name": "Sepultura - Arise",
+    "description": "Este álbum, lançado em 1991, é um dos mais vendidos do metal brasileiro, destacando-se por sua fusão única de elementos do thrash e do death metal.",
+    "cover": "https://upload.wikimedia.org/wikipedia/pt/8/83/Arise-Sepultura.jpg",
+    "location_name": "Belo Horizonte, Brasil",
+    "location_coordinates": [
+      -43.941055687969175,
+      -19.92392687681937
+    ],
+    "date": "1991-05-27"
+  },
+  {
+    "id": 7890,
+    "name": "Mork - Isebakke",
+    "description": "Lançado em 2013, é um dos álbuns mais aclamados pela crítica no cenário do black metal norueguês, elogiado por sua inovação e profundidade musical.",
+    "cover": "https://www.metal-archives.com/images/3/9/2/9/392941.jpg",
+    "location_name": "Halden, Viken",
+    "location_coordinates": [
+      11.38435,
+      59.13270
+    ],
+    "date": "2013-10-11"
+  },
+  {
+    "id": 2345,
+    "name": "Batushka - Litourgiya",
+    "description": "Este álbum, lançado em 2015, é um dos mais populares do black metal polonês, reconhecido por suas composições cativantes e atmosfera ritualística.",
+    "cover": "https://www.metal-archives.com/images/5/4/6/2/546256.jpg",
+    "location_name": "Varsóvia, Polônia",
+    "location_coordinates": [
+      21.0122,
+      52.2298
+    ],
+    "date": "2015-02-26"
+  },
+  {
+    "id": 6789,
+    "name": "1914 - The Blind Leading the Blind",
+    "description": "Uma obra conceitual sobre a Primeira Guerra Mundial, este álbum lançado em 2018 explora temas épicos e sombrios, proporcionando uma imersão histórica.",
+    "cover": "https://www.angrymetalguy.com/wp-content/uploads/2018/11/536040.jpg",
+    "location_name": "Glasgow, Escócia",
+    "location_coordinates": [
+      -4.2510,
+      55.8658
+    ],
+    "date": "2018-08-03"
+  },
+  {
+    "id": 4567,
+    "name": "Celtic Frost - Morbid Tales",
+    "description": "Lançado em 1984, este álbum é reconhecido como um dos pilares fundamentais do black metal, influenciando inúmeras bandas no gênero.",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/8/8e/Morbid_Tales_-_Celtic_Frost.jpg",
+    "location_name": "Zurique, Suíça",
+    "location_coordinates": [
+      8.5433,
+      47.3663
+    ],
+    "date": "1984-03-20"
+  },
+  {
+    "id": 8901,
+    "name": "Candlemass - Nightfall",
+    "description": "Este álbum de 1987 é um marco no doom metal, conhecido por suas composições sombrias e atmosfera densa que moldaram o gênero.",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/5e/CandlemassNightfall.jpg",
+    "location_name": "Estocolmo, Suécia",
+    "location_coordinates": [
+      18.0686,
+      59.3292
+    ],
+    "date": "1987-09-29"
+  },
+  {
+    "id": 2153,
+    "name": "Loathe - I Let It In and It Took Everything",
+    "description": "Lançado em 2020, este álbum é amplamente aclamado pela crítica, representando uma fusão arrojada de elementos do metal extremo e experimentalismo.",
+    "cover": "https://f4.bcbits.com/img/a1056137615_16.jpg",
+    "location_name": "Nottingham, Inglaterra",
+    "location_coordinates": [
+      1.1583,
+      52.9083
+    ],
+    "date": "2020-02-28"
+  },
+  {
+    "id": 3214,
+    "name": "Rammstein - Mutter",
+    "description": "Lançado em 2001, é um dos álbuns mais vendidos do metal industrial, destacando-se por sua energia visceral e letras provocativas.",
+    "cover": "https://upload.wikimedia.org/wikipedia/pt/5/56/RammsteinMutter.jpg",
+    "location_name": "Berlim, Alemanha",
+    "location_coordinates": [
+      13.4050,
+      52.5200
+    ],
+    "date": "2001-03-02"
+  },
+  {
+    "id": 9876,
+    "name": "Lorna Shore - Immortal",
+    "description": "Um dos álbuns mais populares do deathcore, lançado em 2021, conhecido por sua intensidade sonora e performances vocais marcantes.",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/06/Lorna_Shore_-_Immortal.png",
+    "location_name": "Nova Jersey, Estados Unidos",
+    "location_coordinates": [
+      -74.0732,
+      40.6903
+    ],
+    "date": "2021-09-16"
+  },
+  {
+    "id": 6543,
+    "name": "Suicide Silence - The Black Crown",
+    "description": "Lançado em 2011, é um álbum importante no cenário do deathcore, marcado por sua agressividade sonora e temas impactantes.",
+    "cover": "https://upload.wikimedia.org/wikipedia/pt/2/20/Suicide_Silence_-_The_Black_Crown.jpg",
+    "location_name": "Huntington Beach, Califórnia, Estados Unidos",
+    "location_coordinates": [
+      -117.8955,
+      33.6720
+    ],
+    "date": "2011-02-22"
+  },
+  {
+    "id": 5432,
+    "name": "Infant Annihilator - The Battle of Yaldabaoth",
+    "description": "Reconhecido como um dos álbuns mais extremos do deathcore, lançado em 2019, este trabalho desafia limites musicais e líricos.",
+    "cover": "https://www.metal-archives.com/images/7/9/6/8/796898.jpg?0354",
+    "location_name": "Toronto, Canadá",
+    "location_coordinates": [
+      -79.3832,
+      43.6532
+    ],
+    "date": "2019-11-11"
+  },
+  {
+    "id": 3124,
+    "name": "Uada - Cult of Fire",
+    "description": "Lançado em 2016, é elogiado pela crítica como um dos álbuns mais envolventes do black metal atmosférico, apresentando uma atmosfera densa e cativante.",
+    "cover": "https://www.metal-archives.com/images/7/0/4/7/704732.jpg",
+    "location_name": "Portland, Oregon, Estados Unidos",
+    "location_coordinates": [
+      -122.6744,
+      45.5231
+    ],
+    "date": "2016-08-23"
+  },
+  {
+    "id": 2143,
+    "name": "System of a Down - Toxicity",
+    "description": "Um dos álbuns mais vendidos do metal alternativo, lançado em 2001, conhecido por sua diversidade musical e letras socialmente conscientes.",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/64/SystemofaDownToxicityalbumcover.jpg",
+    "location_name": "Los Angeles, Califórnia, Estados Unidos",
+    "location_coordinates": [
+      -118.2437,
+      34.0522
+    ],
+    "date": "2001-09-04"
+  }
+],
+  "fotos": [
+    {
+      "id": 1,
+      "image": "https://roadrockblog.files.wordpress.com/2018/09/01-1.jpg",
+      "description": "Banda Candlemass em seus anos iniciais",
+      "albumId": 8901
+    },
+    {
+      "id": 2,
+      "image": "https://ogimg.infoglobo.com.br/in/2872189-5c2-978/FT1086A/760/System-of-a-DownDivulgacao.jpg",
+      "description": "Banda System of a Down",
+      "albumId": 2143
+    },
+    {
+      "id": 3,
+      "image": "https://upload.wikimedia.org/wikipedia/pt/0/05/Sarcófago1987.jpg",
+      "description": "Banda Sarcofago no cemitério do Bonfim",
+      "albumId": 9012
+    },
+    {
+      "id": 4,
+      "image": "https://4.bp.blogspot.com/-uQIhAtx_tw4/Wf7qlZuhKOI/AAAAAAAAV7o/TFxF8X17y44Rdvi3WHhRI5wjKBsmTDl3wCLcBGAs/s1600/30f3e89149c2e692b8b3fa0ae688ff0b.jpg",
+      "description": "Foto histórica com Max, Wagner e Igor, com corpse paint.",
+      "albumId": 9012
+    },
+    {
+      "id": 5,
+      "image": "https://i0.wp.com/confererock.com.br/wp-content/uploads/2023/05/rammstein.jpg?fit=2560%2C1440&ssl=1",
+      "description": "Foto da banda Rammstein e seus integrantes",
+      "albumId": 3214
+    },
+    {
+      "id": 6,
+      "image": "https://lastfm.freetls.fastly.net/i/u/770x0/6d32a00ac470009f816b581c9c9f9829.jpg#6d32a00ac470009f816b581c9c9f9829",
+      "description": "Nocturno Culto",
+      "albumId": 666
+    },
+    {
+      "id": 7,
+      "image": "https://lastfm.freetls.fastly.net/i/u/770x0/b3224081aaa1188e4ae9887482588ecc.jpg#b3224081aaa1188e4ae9887482588ecc",
+      "description": "Darkthrone em 1991",
+      "albumId": 666
+    },
+    {
+      "id": 8,
+      "image": "https://www.revolvermag.com/sites/default/files/media/images/article/cannibal_corpse_live_2019_kevin_wilson.jpg",
+      "description": "Cannibal Corpse no palco durante show de 2019",
+      "albumId": 5678
+    }
+  ],
+  "destaques": [
+    {
+      "id": 1,
+      "albumId": 5678,
+      "description": "Um clássico do death metal que estabeleceu novos padrões no extremismo musical e lírico. Lançado em 1992, é reverenciado por sua brutalidade sonora. Cannibal Corpse é uma banda de death metal estadunidense criada em 1988 em Buffalo, Nova Iorque."
+    },
+    {
+      "id": 2,
+      "albumId": 3214,
+      "description": "Lançado em 2001, é um dos álbuns mais vendidos do metal industrial, destacando-se por sua energia visceral e letras provocativas. Rammstein é uma banda alemã formada em Berlim, em Janeiro de 1994"
+    },
+    {
+      "id": 3,
+      "albumId": 9012,
+      "description": "Considerado um dos álbuns mais importantes do black metal brasileiro, lançado em 1989, este álbum deixou uma marca duradoura na cena extrema. Sarcofago é uma banda de black metal brasileira formada em Belo Horizonte, Brasil."
+    },
+    {
+      "id": 4,
+      "albumId": 3456,
+      "description": "Este álbum, lançado em 1991, é um dos mais vendidos do metal brasileiro, destacando-se por sua fusão única de elementos do thrash e do death metal. Sepultura é uma banda brasileira de heavy metal formada em Belo Horizonte, Brasil."
+    },
+    {
+      "id": 5,
+      "albumId": 7890,
+      "description": "Lançado em 2013, é um dos álbuns mais aclamados pela crítica no cenário do black metal norueguês, elogiado por sua inovação e profundidade musical. Mork é uma banda norueguesa de black metal formada em Halden, Viken."
+    },
+    {
+      "id": 6,
+      "albumId": 2345,
+      "description": "Este álbum, lançado em 2015, é um dos mais populares do black metal polonês, reconhecido por suas composições cativantes e atmosfera ritualística. Batushka é uma banda polonesa de black metal formada em Varsóvia, Polônia."
+    },
+    {
+      "id": 7,
+      "albumId": 6789,
+      "description": "Uma obra conceitual sobre a Primeira Guerra Mundial, este álbum lançado em 2018 explora temas épicos e sombrios, proporcionando uma imersão histórica. 1914 é uma banda de blackened death metal formada em Glasgow, Escócia."
+    },
+    {
+      "id": 8,
+      "albumId": 4567,
+      "description": "Lançado em 1984, este álbum é reconhecido como um dos pilares fundamentais do black metal, influenciando inúmeras bandas no gênero. Celtic Frost é uma banda suíça de extreme metal formada em Zurique, Suíça."
+    },
+    {
+      "id": 9,
+      "albumId": 8901,
+      "description": "Este álbum de 1987 é um marco no doom metal, conhecido por suas composições sombrias e atmosfera densa que moldaram o gênero. Candlemass é uma banda sueca de doom metal formada em Estocolmo, Suécia."
+    },
+    {
+      "id": 10,
+      "albumId": 2153,
+      "description": "Lançado em 2020, este álbum é amplamente aclamado pela crítica, representando uma fusão arrojada de elementos do metal extremo e experimentalismo. Loathe é uma banda inglesa de metalcore formada em Nottingham, Inglaterra."
+    },
+    {
+      "id": 11,
+      "albumId": 3124,
+      "description": "Lançado em 2016, é elogiado pela crítica como um dos álbuns mais envolventes do black metal atmosférico, apresentando uma atmosfera densa e cativante. Uada é uma banda americana de black metal formada em Portland, Oregon, Estados Unidos."
+    },
+    {
+      "id": 12,
+      "albumId": 2143,
+      "description": "Um dos álbuns mais vendidos do metal alternativo, lançado em 2001, conhecido por sua diversidade musical e letras socialmente conscientes. System of a Down é uma banda americana de metal alternativo formada em Los Angeles, Califórnia, Estados Unidos."
+    },
+    {
+      "id": 13,
+      "albumId": 6543,
+      "description": "Lançado em 2011, é um álbum importante no cenário do deathcore, marcado por sua agressividade sonora e temas impactantes. The Black Crown é o terceiro álbum de estúdio da banda americana de deathcore Suicide Silence. É o último álbum com o vocalista Mitch Lucker."
+    },
+    {
+      "id": 14,
+      "albumId": 5432,
+      "description": "Reconhecido como um dos álbuns mais extremos do deathcore, lançado em 2019, este trabalho desafia limites musicais e líricos. Infant Annihilator é uma banda de deathcore canadense formada em Toronto, Canadá."
+    },
+    {
+      "id": 15,
+      "albumId": 3124,
+      "description": "Lançado em 2016, é elogiado pela crítica como um dos álbuns mais envolventes do black metal atmosférico, apresentando uma atmosfera densa e cativante. Uada é uma banda americana de black metal formada em Portland, Oregon, Estados Unidos."
+    }
+  ]
+
+
+}

@@ -1,0 +1,100 @@
+  body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #242424;
+    color:snow;
+    
+
+  }
+  .card{
+    background-color: #333333;
+  }
+  .cor-site{
+    color: #9c0606;
+  }
+
+  .cor-item{
+    color: #9c0606;
+    font-weight: bold;
+  }
+
+  .destaqueImg{
+    width: 100%;
+    height: 600px;
+    object-fit: contain;
+  }
+  .fotosImg{
+    width: 100%;
+    height: auto;
+  }
+
+  .fundo-item{
+    background-color: rgba(255, 255, 255, 0.666);
+    border-radius: 0px;
+  }
+  .cor-site:hover{
+    color: snow;
+    background-color: #9c0606;
+  }
+
+  @media screen and(max-width: 768px) {
+    .navbar{
+        padding: 20px;
+    }
+
+  }
+
+  /*MAPBOX*/
+  #map{
+    width: 100%;
+    height: 700px;
+  }
+  .bg-map{
+    background: rgb(37,4,4);
+    background: -moz-radial-gradient(circle, rgba(37,4,4,1) 0%, rgba(36,36,36,1) 58%);
+    background: -webkit-radial-gradient(circle, rgba(37,4,4,1) 0%, rgba(36,36,36,1) 58%);
+    background: radial-gradient(circle, rgba(37,4,4,1) 0%, rgba(36,36,36,1) 58%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#250404",endColorstr="#242424",GradientType=1);
+  }
+
+
+  #scroll-container {
+    overflow: hidden;
+  }
+
+  #scroll-text {
+    /* animation properties */
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+
+    -moz-animation: my-animation 7s linear infinite;
+    -webkit-animation: my-animation 7s linear infinite;
+    animation: my-animation 7s linear infinite;
+  }
+
+  /* for Firefox */
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateX(100%); }
+    to { -moz-transform: translateX(-100%); }
+  }
+
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(100%); }
+    to { -webkit-transform: translateX(-100%); }
+  }
+
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    to {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+
+
+

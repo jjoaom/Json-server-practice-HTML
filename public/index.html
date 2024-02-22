@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://kit.fontawesome.com/cecdc81cf5.js" crossorigin="anonymous"></script>
+
+
+  <!--API MAPBOX-->
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css' rel='stylesheet' />
+  <!--API MAPBOX-->
+
+  <title>Projeto Integrado API Mapbox e Json server</title>
+</head>
+
+<body>
+  <!-- header navegação -->
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand cor-site" href="/index.html">
+          <i class="fa-solid fa-biohazard fa-2xl"></i>
+          Home
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fa-solid fa-bars cor-site"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            </li>
+            <li class="nav-item">
+              <a class="nav-link cor-site" href="/detalhe_album.html">Albuns</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- header navegação -->
+  <main>
+    
+
+    <section class="container">
+      <h2 class="mb-0 mt-5 text-center">Destaque</h2>
+      <hr class="mt-2 cor-site" />
+      <!-- carrousel -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators" id="carouselIndicators"></div>
+        <div class="carousel-inner" id="carouselInner"></div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- carrousel -->
+        
+    </section>
+    
+    <!-- mapa -->
+    <section class="container">
+      <h2 class="mb-0 mt-5 text-center">Mapa</h2>
+      <hr class="mt-2 cor-site"/>
+      <div class="bg-map">
+        <div id='map'></div>
+      </div>
+    </section>
+    <!-- mapa -->
+
+    <!-- album -->
+    <section class="container">
+      <h2 class="mb-0 mt-5 text-center">Álbuns</h2>
+      <hr class="mt-2 cor-site" />
+      <div class="row justify-content-center" id="conteudoalbums">
+      <!-- Cards são inseridos aqui -->
+      </div>
+    </section>
+    <!-- album -->
+  </main>
+  <footer>
+    <div class="container">
+      <h2 class="mb-0 mt-5">Créditos</h2>
+      <hr class="mt-2 cor-site" />
+      <div class="row">
+        <div class="col-sm-8">
+          <h3>Sobre</h3>
+          <p>Segundo projeto de Desenvolvimento de Interfaces Web cuja proposta é montar um portal com informações
+            multímidias geolocalizadas, utilizando JSON SERVER e API de mapas. </p>
+        </div>
+
+
+        <div class="col-sm-4">
+          <h3><i class="fa-solid fa-user"></i> Autoria</h3>
+          <p class="mb-1">Aluno: João Marcos de Aquino Gonçalves</p>
+          <p class="mb-1">Curso: Engenharia de Software</p>
+          <p class="mb-1">Turno: Noite</p>
+
+          <p>Redes Sociais:</p>
+          <a href="https://www.linkedin.com/in/jjoaom/"><i class="fa-brands fa-linkedin fa-2xl cor-site"></i></a>
+          <a href="https://github.com/jjoaom"><i class="fa-brands fa-github fa-2xl cor-site"></i></a>
+          <hr class="mt-3">
+        </div>
+      </div>
+  </footer>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <script src="./assets/scripts/main.js"></script>
+</body>
+
+</html>
