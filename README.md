@@ -3,6 +3,5 @@ Web Interface Development Project whose proposal is to set up a portal with geol
 
 Setup:
 
-Open CMD into the directory
-json-server --watch db.json
-open localhost:3000
+Open CMD and insert: npm install cors
+then: npm start
