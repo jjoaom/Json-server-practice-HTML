@@ -31,7 +31,7 @@ function get_card_marker(albums) {
 
 //fetch(url).then(response).then(faça outra coisa)
 function get_locations(map) {
-  const url = 'https://trabalho-pratico-2--joaomarcos157.repl.co/albums'
+  const url = 'https://json-server-practice-html.vercel.app/albums'
   fetch(url)
     .then((response) => {
       console.log(response);
@@ -74,7 +74,7 @@ function cardalbums(albums) {
 
 function get_albuns() {
 
-  const url = 'https://trabalho-pratico-2--joaomarcos157.repl.co/albums'
+  const url = 'https://json-server-practice-html.vercel.app/albums'
   fetch(url)
     .then((response) => {
       console.log(response);
@@ -93,7 +93,7 @@ get_albuns();
 
 // Função para buscar dados da API e adicionar banners ao carousel
 function carregarBanners() {
-  fetch('https://trabalho-pratico-2--joaomarcos157.repl.co/destaques/?_expand=album')
+  fetch('https://json-server-practice-html.vercel.app/destaques/?_expand=album')
     .then(response => response.json())
     .then(data => {
       const carouselIndicators = document.getElementById('carouselIndicators');
