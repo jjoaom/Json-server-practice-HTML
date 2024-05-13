@@ -1,5 +1,5 @@
 async function fetchAlbum(albumId) {
-  const response = await fetch(`https://trabalho-pratico-2--joaomarcos157.repl.co/albums/${albumId}`);
+  const response = await fetch(`https://json-server-practice-html.vercel.app/albums/${albumId}`);
   if (!response.ok) {
     throw new Error('Erro ao buscar o álbum');
   }
@@ -63,7 +63,7 @@ function get_albuns() {
   const URLParams = new URLSearchParams(window.location.search);
   const albumId = URLParams.get('id');
 
-  const url = `https://trabalho-pratico-2--joaomarcos157.repl.co/fotos?albumId=${albumId}`;
+  const url = `https://json-server-practice-html.vercel.app/fotos?albumId=${albumId}`;
   fetch(url)
     .then((response) => {
       console.log(response);
@@ -81,7 +81,7 @@ get_albuns();
 //https://trabalho-pratico-2--joaomarcos157.repl.co/fotos/?_expand=album&albumId=${albumId}
 // Função para buscar dados da API e adicionar banners ao carousel
 function carregarBanners(albumId) {
-  fetch(`https://trabalho-pratico-2--joaomarcos157.repl.co/fotos?albumId=${albumId}`)
+  fetch(`https://json-server-practice-html.vercel.app/fotos?albumId=${albumId}`)
     .then(response => response.json())
     .then(data => {
       const carouselIndicators = document.getElementById('carouselIndicators');
@@ -126,7 +126,7 @@ async function initiateCheckbox() {
   const albumId = urlParams.get('id');
 
   try {
-    const response = await fetch(`https://trabalho-pratico-2--joaomarcos157.repl.co/destaques?albumId=${albumId}`);
+    const response = await fetch(`https://json-server-practice-html.vercel.app/destaques?albumId=${albumId}`);
     const data = await response.json();
     setHighlight(data);
   } catch (error) {
@@ -160,7 +160,7 @@ function addHighlight() {
   const albumId = urlParams.get('id');
   idDestaque = albumId;
 
-  const url = `https://trabalho-pratico-2--joaomarcos157.repl.co/destaques`;
+  const url = `https://json-server-practice-html.vercel.app/destaques`;
   const data = { albumId: parseInt(albumId) };
   const request = {
     method: "POST",
@@ -174,7 +174,7 @@ function addHighlight() {
 }
 
 function removeHighlight() {
-  const url = `https://trabalho-pratico-2--joaomarcos157.repl.co/destaques/${idDestaque}`;
+  const url = `https://json-server-practice-html.vercel.app/destaques/${idDestaque}`;
   const request = {
     method: "DELETE"
   };
